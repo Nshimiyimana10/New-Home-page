@@ -20,6 +20,7 @@ body {
   background-color: white;
   margin-left: 25px;
   padding-left: 35px;
+  cursor:pointer;
 }
 
 .desktop-img {
@@ -62,7 +63,7 @@ body {
 .right-side-container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 
 .promotion-items {
@@ -79,7 +80,7 @@ body {
 }
 
 .promotion-title {
-  line-height: 20px;
+  line-height: 15px;
 }
 
 section {
@@ -98,7 +99,7 @@ section {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 27px;
   color: hsl(240, 100%, 5%);
   font-weight: bold;
 }
@@ -107,12 +108,13 @@ button {
   width: 100px;
   height: 25px;
   background-color: hsl(5, 85%, 63%);
-  margin-top: 15px;
+  margin-top: 20px;
   border: none;
 }
 
 .what-we-offer p {
   font-size: 10px;
+  color:hsl(236, 13%, 42%);
 }
 
 .container-title {
@@ -125,13 +127,27 @@ button {
 
 .list-of-service p {
   font-size: 10px;
+  color:hsl(236, 13%, 42%);
 }
 
 ul {
   display: flex;
   padding-right: 50px;
+  gap:5px;
+  list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:hsl(236, 13%, 42%);
+    font-size: 12px;
 }
 
 .top-of-page {
   padding-top: 15px;
+}
+
+ul li{
+    color: black;
+    color:hsl(236, 13%, 42%)
 }
